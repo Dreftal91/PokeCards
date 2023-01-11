@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PokéCard</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="icon" href="https://www.freeiconspng.com/thumbs/pokeball-png/pokeball-pokemon-ball-red-clipart-13.png">
+    <link href="http://fonts.cdnfonts.com/css/pokemon-fire-red" rel="stylesheet">
+</head>
+<body>
+<div class="card-area">
+    <div class="card bulbasaur">
+        <div class="static-side">
+            <div class="image-box">
+                <div class="poké-name">
+                    <p>Bulbasaur</p>
+                </div>
+                <div class="image-area">
+                    <q cite="https://www.google.com/imgres?imgurl=https%3A%2F%2Fi.etsystatic.com%2F19954669%2Fr%2Fil%2F0e2f2e%2F2342692001%2Fil_570xN.2342692001_awt0.jpg&imgrefurl=https%3A%2F%2Fwww.etsy.com%2Flisting%2F790515722%2Fultra-swole-bulbasaur-14cm55-inches&tbnid=9aXiUK0y7QpWzM&vet=12ahUKEwjXrJ7mx437AhVgiY4IHV6TCvoQMygBegUIARCjAQ..i&docid=st-bijl1ruC_wM&w=570&h=738&q=ultraswole%20Bulbasaur&hl=en&gl=US&safe=active&ved=2ahUKEwjXrJ7mx437AhVgiY4IHV6TCvoQMygBegUIARCjAQ">
+                        <img src="data:image/jpeg;base64,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" alt="Bulbasaur">
+                    </q>
+                </div>
+            </div>
+            <div class="cam-ball">
+                <div class="cam"></div>
+            </div>
+            <div class="h-and-w">
+                <p>
+                    Height: 2 feet 4 inches
+                    Weight: 15.2 pounds
+                </p>
+            </div>
+        </div>
+        <div class="closeable-side">
+            <div class="Pokédex-Entry">
+                <a href="https://www.pokemon.com/us/pokedex/bulbasaur" target="_blank">
+                    <p>
+                        <q cite="https://www.pokemon.com/us/pokedex/bulbasaur">
+                            There is a plant seed on its back right from the day this Pokémon is born. The seed slowly grows larger.
+                        </q>
+                    </p>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="card ivysaur">
+        <div class="static-side">
+            <div class="image-box">
+                <div class="poké-name">
+                    <p>Ivysaur</p>
+                </div>
+                <div class="image-area">
+                    <q cite="https://chipmunkstunesbabiesallstarssadventuresseries.fandom.com/wiki/Ivysaur">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNO0sj6HWkrQAe12vOwkoWzYH9Lb1mA17Y1g&usqp=CAU" alt="Ivysaur">
+                    </q>
+                </div>
+            </div>
+            <div class="cam-ball">
+                <div class="cam"></div>
+            </div>
+            <div class="h-and-w">
+                <p>
+                    Height: 3 feet 4 inches
+                    Weight: 28.7 pounds
+                </p>
+            </div>
+        </div>
+        <div class="closeable-side">
+            <div class="Pokédex-Entry">
+                <a href="https://www.pokemon.com/us/pokedex/ivysaur" target="_blank">
+                    <p>
+                        <q cite="https://www.pokemon.com/us/pokedex/ivysaur">
+                            When the bulb on its back grows large, it appears to lose the ability to stand on its hind legs.
+                        </q>
+                    </p>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="card venusaur">
+        <div class="static-side">
+            <div class="image-box">
+                <div class="poké-name">
+                    <p>Venusaur</p>
+                </div>
+                <div class="image-area">
+                    <q cite="https://villainstournament.fandom.com/wiki/Venusaur">
+                        <img src="https://static.pokemonpets.com/images/monsters-images-800-800/3-Venusaur.webp" alt="Venusaur">
+                    </q>
+                </div>
+            </div>
+            <div class="cam-ball">
+                <div class="cam"></div>
+            </div>
+            <div class="h-and-w">
+                <p>
+                    Height: 6 feet 7 inches
+                    Weight: 220.5 pounds
+                </p>
+            </div>
+        </div>
+        <div class="closeable-side">
+            <div class="Pokédex-Entry">
+                <a href="https://www.pokemon.com/us/pokedex/venusaur" target="_blank">
+                    <p>
+                        <q cite="https://www.pokemon.com/us/pokedex/venusaur">
+                            Its plant blooms when it is absorbing solar energy. It stays on the move to seek sunlight.
+                        </q>
+                    </p>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="card charmander">
+        <div class="static-side">
+            <div class="image-box">
+                <div class="poké-name">
+                    <p>Charmander</p>
+                </div>
+                <div class="image-area">
+                    <q cite="https://skrimarket.com/all_models/Ultra%20swole%20Charmander?mmf_author=cyenyee&mmf_category_id=496&mmf_id=117909">
+                        <img src="data:image/jpeg;base64,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" alt="Charmander">
+                    </q>
+                </div>
+            </div>
+            <div class="cam-ball">
+                <div class="cam"></div>
+            </div>
+            <div class="h-and-w">
+                <p>
+                    Height: 2 feet 0 inches
+                    Weight: 18.7 pounds
+                </p>
+            </div>
+        </div>
+        <div class="closeable-side">
+            <div class="Pokédex-Entry">
+                <a href="https://www.pokemon.com/us/pokedex/charmander" target="_blank">
+                    <p>
+                        <q cite="https://www.pokemon.com/us/pokedex/charmander">
+                            It has a preference for hot things. When it rains, steam is said to spout from the tip of its tail.
+                        </q>
+                    </p>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="card charmeleon">
+        <div class="static-side">
+            <div class="image-box">
+                <div class="poké-name">
+                    <p>Charmeleon</p>
+                </div>
+                <div class="image-area">
+                    <q cite="https://fictionhorizon.com/what-level-does-charmeleon-evolve-at-and-how-to-do-it/">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSo1-TIbtS28oh8QtIzJXh6d4_j8TG-o7IL1A&usqp=CAU" alt="Charmeleon">
+                    </q>
+                </div>
+            </div>
+            <div class="cam-ball">
+                <div class="cam"></div>
+            </div>
+            <div class="h-and-w">
+                <p>
+                    Height: 3 feet 7 inches
+                    Weight: 41.9 pounds
+                </p>
+            </div>
+        </div>
+        <div class="closeable-side">
+            <div class="Pokédex-Entry">
+                <a href="https://www.pokemon.com/us/pokedex/charmeleon" target="_blank">
+                    <p>
+                        <q cite="https://www.pokemon.com/us/pokedex/charmeleon">
+                            It has a barbaric nature. In battle, it whips its fiery tail around and slashes away with sharp claws.
+                        </q>
+                    </p>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="card charizard">
+        <div class="static-side">
+            <div class="image-box">
+                <div class="poké-name">
+                    <p>Charizard</p>
+                </div>
+                <div class="image-area">
+                    <q cite="https://powerlisting.fandom.com/wiki/Type_Combination">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLASkVcD8tCaFqmtz1ndgZDblAHGSYvPjHyA&usqp=CAU" alt="Charizard">
+                    </q>
+                </div>
+            </div>
+            <div class="cam-ball">
+                <div class="cam"></div>
+            </div>
+            <div class="h-and-w">
+                <p>
+                    Height: 5 feet 7 inches
+                    Weight: 199.5 pounds
+                </p>
+            </div>
+        </div>
+        <div class="closeable-side">
+            <div class="Pokédex-Entry">
+                <a href="https://www.pokemon.com/us/pokedex/charizard" target="_blank">
+                    <p>
+                        <q cite="https://www.pokemon.com/us/pokedex/charizard">
+                            It spits fire that is hot enough to melt boulders. It may cause forest fires by blowing flames.
+                        </q>
+                    </p>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="card squirtle">
+        <div class="static-side">
+            <div class="image-box">
+                <div class="poké-name">
+                    <p>Squirtle</p>
+                </div>
+                <div class="image-area">
+                    <q cite="https://www.psdly.com/ultra-swole-squirtle-pokemon-3d-model">
+                        <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxMTEhUSEhIWFRUVFRUVFRUVFRUVFxcVFRUXFxYVFxUYHSggGBolHRUXITEhJSkrLi4uFx8zODMtNygtLisBCgoKDg0OGhAQGi0lHyUtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLf/AABEIAOEA4QMBIgACEQEDEQH/xAAbAAABBQEBAAAAAAAAAAAAAAAAAQMEBQYCB//EAEUQAAEDAgMFBAYHBgQGAwAAAAEAAgMEEQUhMRJBUWFxBhOBkSIyobHB0QdCUmJykuEUFSMzgvBzorLxFkNTVGPSFyQ0/8QAGwEAAQUBAQAAAAAAAAAAAAAAAwABAgQFBgf/xAA0EQACAQIEBAMHBAEFAAAAAAAAAQIDEQQSITEFE0FRImGhMnGBsdHh8BSRwfEjM0JSU6L/2gAMAwEAAhEDEQA/APVUIQok7AhCROMKkSoTCBCEJDghCEhgQkSpxwQhCYYEIQkIEJUJDiISoSEIhKhIYRBQhOIRKhIUiJyVzZdFIURA2IhKhORHEIQglgEIQkPYEIQkIEIQkIEIQkIEIQkMCEJUhHK6TFRUsYNp72sbxcQ0eZVJV9tqNmXel5+40n2mw9qVySi3sjRIWMf9ItPujkPXZHxKRn0iwb4njoWn5JsyJcufY2iFmqbtxSO1e5n4m/8ArdXFJisEv8uZjuQcL+WqV0RcWt0TUIQnIghCRIcVcldLkp0RZyUFCRzkQExLpUztpUTKBz+ZJQhCrF0EIQkIEIJsqSvx9rfRiG0ftH1fDipRi5OyITnGCvJl2o5rox9ceayDq2aWZoLzYAucAbDPJosP6vJWjIQs/H439LNU0k3a78vIJh0q0c+qReCsj+23zTrXg6EHobqkbCE1K5g68BqqMeMPrBfvYO6C7mjTc8oaLlUUeIPb6pNuDjf9faoeIYq5xtlfgL2C0sNi44h5YJ3/ADrsV6q5avJllUYiTvsOXzUYYgL8VUtudTdS4ogtSNC27KDxV9kTRXMdk5oI4EX+CjVGEUM3rRRg8QNg+bbJ1sQS9yE/LQ6rzWv1KKu+jyJ2cEzmcnWe3zFj71mcR7F1kVyGCQcYzc/lNivQgwt9UkdPkpMOJEZPHiPkhTw6LVPHS2f58dzxSo2o794Cy2oddpHgc0xHXPPqNs37Tt/MNC92qoKeobsysZIOD2g+9UGJfR/TPziLojy9JvkfgUB0rLQuLFJ+1ovIxmEdrqqD1ZS4fZf6TfAE3HgVrcL+kUE7NRDbi6O+XVjvms1iPYapiuWASt4sOf5Tn5XVBNE9hIeHNO8G4PHO6H4ohlCnU2PdsOxOKcbUUjX8QDmOrdQpi8CpK50ZDmuLSN4Nj4FbfAe3jxZs42xptCwd8nKSn3AVKDWqPRkii0NdHM3bjcHDlqORG5PlyKipJ23EcVGe5OPcmyFZhGxTqzctEcoXVkIlwNiahCVUDWOVy94AJJsBmSu1nMfr9p3dNPot9bmeHgpwjmdiFSagrkbFcUMp2W5M/wBXM/JV4YnAEhWjTgoqyMWvUlJ3YYI280xG4sb5Muf9SvGqi7Na1B4ze6OMK+BXDcWlfGVPf8tDo8GrUIe5eupGrZiMgobXJ+rF/D4qC5nM+aqRjoWLj9XU7LctTkOXNVkZ4oldc63AyF1lu0EkcmIU9NMSImN232dskyPZtNG1usAwX+8V2XD6Cw2GTtrLV/HZfBfz3MPESeIrON9F+M2VG8kekNk3OQN8txVlGFn8Dqw+MOBuLuAN73DXFoN+YF/FXDataF7oq7Npk1rk60quE6fZMosnFj4lBeYwCSBdxsdkcAXaX5JqdioO03a0UzhGM3EbR4NadPE2VzFO5wIe0tc0NvvadoXBa7eNeYQ1LxWCyp+HMVGJVs0RBjbtt3i4BB5X1XNH2yaDsvDmHg6496kYxCXRvA1LTbqMx7V59FjRI2XgOHByUkKnJ2PWqPtDG/epVTBBUNtI1rxz1HQ6heVU8rD/AC3Fh4XuPmFaUmLSR+tmPtNNx+iG6fYLGq1uWuMfR8M3U7/6H/B3z81jqvDpYXFsjC0jiF6PhPaAO3q4mZDUN2XgHrqOh3KrKEW+xoU8TJLXVHlmE4xJC4OjcQR5HkRvC9KwDtGypFsmyAZtvrxLePRZHtF2QdHd8XpM1+8Oo3jmFmqeodG4FpsQQQRutwTRcoMJUpxrR0PaUhVL2Wx9tSyzspWj0hxH2h8eCuiFfhJSV0YtSm4SyyEQiyFMGTkqRCoGqQ8WrO6ic7fo38R0+fgsY16se2VZ/EZGNGjaPV2nsHtVK2VXqELRv3M3E1bzy9ia1ynshGwTlpdUrJlMdWWaeitWKCmr6i9ls4Xv3uqJf8uy34K32lneyslqVv3nyuPjI5WT6hcHxC08TUa/5P5s6nDxy0oLyXyRNnkAFxqfRLelnB1+o06qvrXjNzRbK9k06e5HIrjEHegf73qNF55RpvZtL1JT8MXJdmRqVu04DiQF5z2tpzLW1DxoZXNz3CP+GPYxeiUctnBw3G6z1T2WfI+R37QAHve/+XmNpxda9+a7TEQnK2QxuH1aEHLnX1Wlvf8A2TuxrCKSLmHHze5XyZwik7qJkV77DQL2tcjU25qwLBwRIK0UmVpO8m13IzVIYUmwEoCTEjy/tk/aqpHcH7Hg1rR7wVt+wWJyzCoZK/aLGwluVrD0wfE5XVJjmFSiokf3Lnse7bBa0u1Avpob3V/2Ho3MFRK8FoeI2MDm7Js3aJOfUZrP8fNtbqbdSFD9Kpxkr2irdnbUs6lZGjpI2SOAaPWO6+/j4rVVTlmdv/7BH3vgD8VfgtTCqNpaGibC22iVuBNfuDQd4yPsU6iptqxOmqtQFi8U4xypcqja63e9vJfz2LmBwDlFTqbdFt+5mJeyoaNqGRzX63Ni08i35KNR4pJG/u5m7Dxpva7mCtgWqvxbDWzNsciNDwKxqXEZOX+R/Ht+djW5KS8KJVFidxYql7Sdl2zAyQAB+pboHdODlE7mWnHpXfGPrNzLeo1AVzQ4hkMwQdDda9HEKStuCs4u60PNKfFHUsodfZew5g8tWkdMl7Jh9Y2aJkrPVkaHDxGh5jTwWV7Wdloqod+xje/aPB4GjXbr8CVX/R5i7mSmlkyDiQ1py2JG6ttuvY5cQFbpyUH5MjXhzo3W6PQrIT2wlVvmGfymOJqpqWRt2nuAHv5Abym8QrGxML3eA3k7gFha6ufM/acegGgHAIVKk569CxXrqmvMYxWoMsz5Nzjl0GQ9gCjC6nspiu3QbitCKtoZE2222VneIknyPRc1UdioFXJZjjwBKKmV7XLnAzaBnMOP5iT8VLL1AoAWwxt4RsH+ULp0q8/reKpKXdt+p2cFaKRLDk9XNux1uHuzVUZrHPyVox17dELM4SUlunf9iTjdWZnxiAjttmwJsCePBT48SbxCqsdwwSB0LjbPaY617cPDMhYeSnmjeY7PDhuBNjzHELtf1N4qcVdPUw6WBVRuOa0luv5R6rHiDU5TV7nSluxaMD1y4Zk7g3VeYRRVQ02/MfEqfT4nVR5OYXe/2ZJc++6YR8NqRV1Z/uejuqDt2t6OzfbuNb+qBroL36Jf2xvFeaVfaOfTYcOt/kq84/NxHt+aTxCRBYGoevNqxxSS1wAzK8lHaCfj7/mrTBTPMdt77Rg7vrHhnnZR56bskNPBzgnKTSRuJaoHMLOYRL31UQ3e51jyFxf2LnGMQ7qM29Y5N6nf4a+Ct/oow/0zK4gm3ogncN1jv3qFeu6UG17T0Xvf039CFKiqkrPY2rI7NABtY3/3HBAkcNRccW/EKVidaHkW3ak2uT4blEbIuMxKSm4p5l32+puxV0PxvBzBuu3NUbIm+h4jL/dSNuwz14jMEdNxVbLfYkMyQhRBh8YFmstvyyHkpL5QTwXc0rY25kF1smjMnmeAVrD86UlGmtSE3FK8hiCMs0JI5rM9ssLLHCuhyc1zTIBxBGy/3A+CvpK55OVgOGZ9v6JuaruCHNBBFiLZEbwQt+lh8fBeOCku10mUVjcOpaS+diN/8iM/6R9iFF/ddL/27fb80Iuav/1T/wDP1Cc3Dd0SMdxAzyWb6jcm/F3ilpaYAKHStzVm0rasorKjFvmbk92I9V1ZNZTah1gqHEajVEgBqO5Cq627rKHiLi5rYxrK9rBxsT6R8Bc+Crqqos66tuy7O+qi85tgjy/HJcX8Gh35lUxeK5VGcuqWnvLGFw2erFdPoaExHIAZLr93vJ0t1ureA7ObcjxClS1RcMwL/a3/ACXFZ007vU6XUqqLCmsIc6ziN279VNnjDhfIEbgLX8skXSXQc7JWKjG6UOjLx67LW5je33Hw5rPRzseLPGenMLYVUe01zeLSFisSpHZua03b6zB63MtH1rcNbZi66Xgtdypypt7apeT39TJx8clSM1pfr59Dt9EdWkEKLIxw1CiwV5tdrgRxBUgYo7eFr3iSjxColacb+gxI5dQ4ZJJpGLcXWA8yu3YieDfIJqWvkd9a3im8IpY6T9mNiQMCp2HakO0fsNNm+J1PsTs9e0DKwaBkBlYKlnqg3NzvElVFTVOlNtG+0/ohuSS0Viq3Oq/E7kt8jqmW/wBUZN+J8V6b2fg7uICyxnZSg9IEjILcsfYWXPcQrupLKaeGpKEbk/v102dQYw5xyCsIIA3XVZLiWiWxhAu640y66E8F2ZBbPIDMk7gE33hI5DMnrxKpJpzOb/8AKHqt+39533eA8Vbw2CliaihT26t9Pz1K9evGjDNMtH4kHC0Y9E/XOp/COHMqO1iWGNSWRrssJhKOFjlgte/V/nZHPV69XEO8tu3T7/EaDFw+JWLIEj4lYc0DVNlZ3SFO7sJFDMSyGdp371PZOLKs0TUtQUWwFTJVfWLO4hPdOVdXzVDW1V8gozmoonCDlLUi1clyVp/o8j/hSyWsXy2aeLY2ge8u9qxdbPstJXo3Y6n2KSFu/Z2z+J5Lj71znE5/47d2bmEh4r9jRxOuMk4o7XW8U9dc7Lc00dISXXcVO519lpNhc23BKMXJ2Qm7DL+KYrqNkzAANmRujr2uL3tz6eSnwysAeHtJuPRIy2XceigPCsUakqDU4PX1X9/Z9UDnCNROMloef492elieXi7C7MkZtcefPrmqJ7qgb2nqLL1czHaLCbgtFwcwQDoVBrcBgk+psm97tJHhbT2Lbp8XhL/Vjr3X0+hQlgZL2Hp2Z5c/EJeDfamv2qV31gOg+a9DZ2IY5wAlDb73jIdTdSP+CoGG5lc/jYbAvw3kjyVmXEMMo5s3pqCWGq3tlMBTYcXZ5uI3uzAVhQYTd2f99FtXYRlZjbAaBJFhEg3LMq8SdTbRF2lhVHV6sXCoWRNy1VjHKHZJluEv5BTIsMLBtB1+OWiz5Vr3LKikS4HWFguy5R2lM19cI231OjRxJyAQEnJ2E9NznE6ovtTtyaPSmI3j6rfH3X4rulbmq6mbYZ5ucdpx4uOvhu8ApsUi7jA4X9NRUX7XX6fD77tnNYmvzqt1stvzzLgNC6BVeyfmn2yI7ErE+OREj1EZInDIht2CJHV0qZ20JrisUT4gd5UWpgFuPsU6Jlwo9Wwq3coOJkcTba6oJHlabFo76rNVjM8lUrPUu0NisqAZHtYPrEDzNl7JQs2WNbwAHkF5pgmDylzKgsPd982Pa3F2y59hx9X3cV6VC/Jc9xSWsY+9/wAGzhVaLZNa5K11tdPcmWvTzXLHaLaHQVY4difdNcNkHaFjnYqpA4eX96Ie/jl1+HFPTnOEs8Ogmk1ZiSvTbHLiVyaZJYqO447TNDpHm9rWbci+gJ3fi9ikiNcUkdh1zPU5lSAmlK4hGU199lP/AHfGD6JLhxcLZ9E1FyVoaJ4bctt+qeMKk4vLG/nbYZtLdkdsY4JdkJHZarguVeSaeo6EkAUUnUbin3lRJCnQ5FkFiqKvmLpwNzBf+p2Q9l/NaWrG0wOzuPRvutYWHvWSm/mP43F/JbnCKUXiYt9rlDiE3GhK3uJjJU42ZQmgpyxXYXObWhYRzqQydVAfZdtnUGg0ZF6yZdGZUzKldOqkGUQykWnfoVT+0pU2UfMzqjqealzWIWfBLDyU+CquFYsVr2RW4rBvWYqY/StwN/0WwrhdZbFBY3Qa8dLhaE1ex7BNQQPw9rYWgRCNskVt1htXPF2Zv1KxsU3NXf0WYj3kElO437t203/Dk1Hg4O/MqLHaE087mfUJ2mH7p+WiwcbSzQUu2nw/v5m5Rl6ktkqlRSKkgnU2GZY8olqLLUORLJcWOY5phkq7OeiFlfQlciTRg6EjkDl5JmOMXAG0TxJ+CfeU5QMu4ngpN2WokTWN2RxHt8l2165Kbc0f3khNXHJTZFLFe82u9xtmLk6qpH4j5Ap1obvkd+Ua+alGLWzt8bDOxPM19SuTIopDdz3+TRn7Undji4/1fIKEo23Y9yQ+TmodRVMGrgkdG37IPW595Ueaa3qho6AJ4xuxXFdX+iQA8jWwabX8clVQRl5cSMy7luA/VSJ3Pf6IOvMqyw+iDWgALoeDUGpupbRaf0ZXEqnh5a3GqbD+Sl/u5pCltYnGrpHK5jKFjPV+FPZmBdvJUsj7L0NuliqevwFkhuPRPLJQzBMljJCZKJCrw9mXDf7UhwMt1zUWSKfaKRW/7uCFG45FcA7VMiItOWYT2K4fLTP2ZBkfVePVcOR3HkmY5kaE0wFSnKDO5G33KmxHD3OyA1WkprHUImI3BSlZqzIQbi7ogdhYpKSd0jwS0xOZYEZuLmkdNNVe4/iDqhmy6JosbhwJ2hyBUF1eGDRO4fM+S5c3Zbu4nnyQFQprpf3lh4mrtexmI5rOLTuNlOinUuswgnvQ3ZdezhtA3HGzhp5HcqSeGSOxObDo4Z/0u4O5FYGNwDhJyitPka+GxKqRSb1L2OdOiptvVJBOn++WXlsXblg+pubp/DZ8iN91TF6IJS1175JpK6HRqA9IXKFDPcJ3vkDJqTuOFyNtNmUFNvdzCkqY1ySJF13ihCRd7ajlHH5JFBlenJHKI9+dkSlBtpLd6EZysrsnULc7q8pmqmpXK1p5rBdtCkqUFCOyOc5vMm5y6kxyaJTT6gJp1QpxTISkiwjkXYVS2oUqKdO4jKRLc9RZpLriaoTIekNuKhN7aRMNZmxrKVkrCyRoc06g+8cDzXn2Pdl5YLvivJFrxewcx9Ycx5L0dCoQm4s16lOM9zx+Cr5qVFLdbXGuyUM93N/hSH6zRkT95mh6ixWGxPC56V38Rvo6B7c2nx3HkVbhVUihUw7jqWtJGwn0vmpLngHJZyPEUsuLBGzFdxLUVREt92YPSxUzsgRLJPA5odG9peb52dcNuOt/Yst+23Fwtv8AR3QlsT5nD+Y6zebW3uehJP5VXrtZSxhYvOjG1dIGzSRAbDmXOyc2kD7O8dM1DbO3eQehV/8ASPCYqlkjLhz2ki3EZXPLNZmalDQ1zXbTSBc7w+2YI56rCxNKOZ2XmbFOTsT2PB3ro7NlVti3gkHknGB41AcORsfIqg4h0WsVRz0y8Nx+HkpbZlSsk6g8wVLhLiQ0Zk6JsrbS6ibSV+hYOkTDpVPZhZ2Td13WysMuhWffPr5I9bCVaKWdWuBp4inVvkd7E8T806aw8lSuqFx37kJQZPMXRqSmO+9IdQqxszydlrS47g0XVrhfZyV72yTnZDTdsYOd9xcR7lbwmFqSqKUVs16Mr4itFRak90WsIyThlIVlDSAJZKdp1C6owLFV+08UglJ0ViaOPgu9ho0CdIg7kONp3rsy2RM9V0s1ymbsKKJ7JbpwvUCOSycbNdBk7FiEbknvEJnaQh5g+VHoaEIVM0gTc0TXNLXAOaRYgi4I5hOFCcRgcb7AEuLqV4AP/LkJsPwvAOXI+aph2FrL+qzr3gt816uhFVaSASw8G7mGwXsAGkOqH7X/AI2XDejnHMjpZbdjAAAAAALADIADQALpCHKbk7sJCnGCtEz/AG3oTLSvsLllnjoPW9nuXl7GZZeI4r28heU1mHBs0jG5APdbpfJUMdG0VNdNA9HexTNI6dfmpDApb6MaEXTkOGt3E+aypSLKQlLTbZtu3qwmDW2DRYNKSij2MuBXdSAV1PDsPGjRUurV38enusYOOqyqTavotPv+5OgkB3rM4zhjzMdhpO3nYcd/981NZKWlXdCQ4XOqNiaUa0csgWGm6TbRhDTuDtktO1paxvfornD8BvYyH+kfEq5rWt2r2Fxod64jlsq1Lh0INuWvb86hqmPlLSKt+dCzoaRjQA1oA5ZKcGhUzK1dGv5q3YFFotHWUaVygSV6jurVNaEZkqWVcd8ock90rXqdyvkdxaiS6i2spYZdc1EFhdDlIPGNkQXOT1O8uIaBdxNgBqSijwmec/wmHZ3vd6LR47/C622AdnmU/pE7cn2tw5NHxQJzsWaVO5Tf8OT8G/mSrZJUDMyzyoioQuVEMdIQhMIEIQkIEIQkIF5rXzB1TLbQG3kM/atn2oxcUtO+Un0rbLBxcdF43T4gbkk65lU8brTyoJS9q5rZnghcwlUjK++9WFBUZrGcWi4nckVLix21ud712JwQp0rWubskX2srfHlbiqKthfD62bdzh7jwK3eGY5SgqU91t5/cycZhrSc1s/QkSPUqlq7KiFWpEVStdSKDj2LqepDkxtKI2VOCREzoBy9bj5cuHOK5211tJronZjLgV01hXQK7CQ6uDWJ2Ji5BSGS2iHKYRQ6k9hAClYVSd9KAfVGb+g3eOiqWTFxAAuTkAN5K3WCYf3Uefruzd8B4fNAlPQsU6d3dliBuAtbRCEiCWgQhCcYF0hCiyYISISGFQhCQ6BIhCQjAfS//ACYP8Q/6V5jGhCqYn2l7gkCVT6q8w3UIQs2sWYGip/X/AKfin67+W/8ACUIVH/eib2MOdSu4dUqF3C2Oae5NhUlqEKQ6FYukqE6IsINPNSAhCZkogVw5KhCkGiWHZf8A/TH1PuK9BQhAkWqewJChCYkCEITjH//Z" alt="Bulbasaur">
+                    </q>
+                </div>
+            </div>
+            <div class="cam-ball">
+                <div class="cam"></div>
+            </div>
+            <div class="h-and-w">
+                <p>
+                    Height: 1 feet 8 inches
+                    Weight: 19.8 pounds
+                </p>
+            </div>
+        </div>
+        <div class="closeable-side">
+            <div class="Pokédex-Entry">
+                <a href="https://www.pokemon.com/us/pokedex/squirtle" target="_blank">
+                    <p>
+                        <q cite="https://www.pokemon.com/us/pokedex/squirtle">
+                            When it retracts its long neck into its shell, it squirts out water with vigorous force.
+                        </q>
+                    </p>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="card wartortle">
+        <div class="static-side">
+            <div class="image-box">
+                <div class="poké-name">
+                    <p>Wartortle</p>
+                </div>
+                <div class="image-area">
+                    <q cite="https://in.portal-pokemon.com/play/pokedex/008">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFdrhIxHSGFkokdsbwpOwILP_zAUJXuCXK4w&usqp=CAU" alt="Wartortle">
+                    </q>
+                </div>
+            </div>
+            <div class="cam-ball">
+                <div class="cam"></div>
+            </div>
+            <div class="h-and-w">
+                <p>
+                    Height: 3 feet 3 inches
+                    Weight: 49.6 pounds
+                </p>
+            </div>
+        </div>
+        <div class="closeable-side">
+            <div class="Pokédex-Entry">
+                <a href="https://www.pokemon.com/us/pokedex/wartortle" target="_blank">
+                    <p>
+                        <q cite="https://www.pokemon.com/us/pokedex/wartortle">
+                            It is recognized as a symbol of longevity. If its shell has algae on it, that Wartortle is very old.
+                        </q>
+                    </p>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="card blastoise">
+        <div class="static-side">
+            <div class="image-box">
+                <div class="poké-name">
+                    <p>Blastoise</p>
+                </div>
+                <div class="image-area">
+                    <q cite="https://pokemonfanon.fandom.com/wiki/Kame_(Omega_Timeline)">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVpZqBv7p9GOsT9xgkB3e8A99d9XdVwuA1NQ&usqp=CAU" alt="Blastoise">
+                    </q>
+                </div>
+            </div>
+            <div class="cam-ball">
+                <div class="cam"></div>
+            </div>
+            <div class="h-and-w">
+                <p>
+                    Height: 5 feet 3 inches
+                    Weight: 188.5 pounds
+                </p>
+            </div>
+        </div>
+        <div class="closeable-side">
+            <div class="Pokédex-Entry">
+                <a href="https://www.pokemon.com/us/pokedex/blastoise" target="_blank">
+                    <p>
+                        <q cite="https://www.pokemon.com/us/pokedex/blastoise">
+                            It crushes its foe under its heavy body to cause fainting. In a pinch, it will withdraw inside its shell.
+                        </q>
+                    </p>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="card caterpie">
+        <div class="static-side">
+            <div class="image-box">
+                <div class="poké-name">
+                    <p>Caterpie</p>
+                </div>
+                <div class="image-area">
+                    <q cite="https://www.playbuzz.com/sjoels10/12-pokemon-you-might-not-know-are-based-on-real-creatures?e+you?">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBqgS0aPUO6zjYr7KxY9NTK1_q2qUVAQqNyQ&usqp=CAU" alt="Caterpie">
+                    </q>
+                </div>
+            </div>
+            <div class="cam-ball">
+                <div class="cam"></div>
+            </div>
+            <div class="h-and-w">
+                <p>
+                    Height: 1 feet 0 inches
+                    Weight: 6.4 pounds
+                </p>
+            </div>
+        </div>
+        <div class="closeable-side">
+            <div class="Pokédex-Entry">
+                <a href="https://www.pokemon.com/us/pokedex/caterpie" target="_blank">
+                    <p>
+                        <q cite="https://www.pokemon.com/us/pokedex/caterpie">
+                            For protection, it releases a horrible stench from the antenna on its head to drive away enemies.
+                        </q>
+                    </p>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
